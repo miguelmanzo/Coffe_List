@@ -43,6 +43,7 @@ class _SignInState extends State<SignIn> {
         ],
       ),
       body: Container(
+        color: Colors.brown[100],
         padding: EdgeInsets.symmetric(vertical: 30, horizontal: 60),
         child: Form(
           key: _fromKey,
